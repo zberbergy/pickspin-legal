@@ -1,6 +1,9 @@
-# PickSpin Legal (Privacy Policy)
+# PickSpin Legal (Privacy Policy & Terms of Use)
 
-This project is meant to be the contents of the **pickspin-legal** GitHub repository. Deploy it with Vercel to host the privacy policy page.
+This project is meant to be the contents of the **pickspin-legal** GitHub repository. Deploy it with Vercel to host:
+
+- **Privacy Policy:** `index.html` (root URL)
+- **Terms of Use:** `terms-of-use.html`
 
 ## Option A: Deploy from GitHub (recommended)
 
@@ -37,4 +40,8 @@ Follow the prompts; you’ll get a URL when the deploy finishes.
 
 ---
 
-After deploy, use the Vercel URL as the **Privacy Policy URL** in App Store Connect and optionally link to it from the app.
+After deploy:
+
+- Use the Vercel URL as the **Privacy Policy URL** in App Store Connect (e.g. `https://your-project.vercel.app`).
+- Terms of Use: `https://your-project.vercel.app/terms-of-use.html`
+- You can link to both from the app or store listing.

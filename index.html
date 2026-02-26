@@ -36,8 +36,10 @@
     }
     p, li { color: var(--muted); margin: 0.5rem 0; }
     ul { padding-left: 1.25rem; }
-    a { color: var(--accent); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
     .updated { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--muted); font-size: 0.9rem; }
   </style>
 </head>
 <body>
@@ -69,5 +71,7 @@
 
   <h2>7. Contact</h2>
   <p>For privacy-related questions, please contact us through the developer or contact information on the app store page.</p>
+
+  <p class="nav"><a href="terms-of-use.html">Terms of Use →</a></p>
 </body>
 </html>
