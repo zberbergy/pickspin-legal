@@ -40,9 +40,16 @@
     a:hover { text-decoration: underline; }
     .updated { font-size: 0.875rem; color: var(--muted); margin-bottom: 1.5rem; }
     .nav { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--muted); font-size: 0.9rem; }
+    .top-nav { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid var(--muted); font-size: 0.95rem; }
+    .top-nav a { margin-right: 1rem; }
+    .top-nav a.active { font-weight: 600; color: #fff; pointer-events: none; }
   </style>
 </head>
 <body>
+  <nav class="top-nav">
+    <a href="index.html">Privacy Policy</a>
+    <a href="terms-of-use.html" class="active">Terms of Use</a>
+  </nav>
   <h1>Terms of Use</h1>
   <p class="updated">Last updated: February 2025</p>
 
