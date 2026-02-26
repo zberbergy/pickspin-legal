@@ -2,8 +2,10 @@
 
 This project is meant to be the contents of the **pickspin-legal** GitHub repository. Deploy it with Vercel to host:
 
-- **Privacy Policy:** `index.html` (root URL)
-- **Terms of Use:** `terms-of-use.html`
+- **One link (root):** `index.html` – landing with Privacy, Terms, Support
+- **Privacy:** `privacy.html`
+- **Terms:** `terms-of-use.html`
+- **Support:** `support.html`
 
 ## Option A: Deploy from GitHub (recommended)
 
@@ -42,6 +44,4 @@ Follow the prompts; you’ll get a URL when the deploy finishes.
 
 After deploy:
 
-- Use the Vercel URL as the **Privacy Policy URL** in App Store Connect (e.g. `https://your-project.vercel.app`).
-- Terms of Use: `https://your-project.vercel.app/terms-of-use.html`
-- You can link to both from the app or store listing.
+- Use the **root Vercel URL** as the single link in the app and App Store Connect (e.g. `https://pickspin-legal.vercel.app`). Users see Privacy, Terms, and Support on one page.
